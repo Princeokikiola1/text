@@ -1,0 +1,88 @@
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.contain{
+    position: relative;
+    width: 100%;
+    height: 600px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media(max-width: 768px) {
+    .background{
+        width: 100%;
+        height: 500px;
+       
+    }
+}
+.publish{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    color: white;
+    font-size: 50px;
+}
+@media(max-width: 768px) {
+    .publish{
+        top: 120px;
+        left: 60px;
+        font-size: 30px;
+}
+}
+.paragraph{
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    color: white;
+    font-size: 30px;
+}
+@media(max-width: 768px) {
+    .paragraph{
+        top: 190px;
+        left: 60px;
+        font-size: 20px;
+}
+}
+.btn{
+    background-color: rgba(9, 9, 91, 0.971);
+    color: white;
+    position: absolute;
+    top: 440px;
+    left: 60px;
+}
+@media(max-width: 768px) {
+    .btn{
+        top: 350px;
+        left: 60px;
+       
+}
+}
+.containf{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+@media(max-width: 768px) {
+    .containf{
+       flex-wrap: wrap;
+       padding: auto;
+       justify-content: center;
+    align-content: center;
+       
+}
+}
+.containE{
+    background-color: rgb(2,13,140);
+    width: 100%;
+    height: 400px;
+}
+.containQ{
+   top: 200px;
+   color: white;
+   position: absolute;
+}
